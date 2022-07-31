@@ -20,8 +20,8 @@ const networks = new Map([
   [
     "xdai",
     {
-      token: "0x3CDaAe51E74302D63095064C3AB354C64190e289", 
-      uniswapExchange: "0x3060df70EFe4F969D82BF18ff32CE23F441dAD74", 
+      token: "0x71850b7E9Ee3f13Ab46d67167341E4bDc905Eef9", 
+      uniswapExchange: "0x7B7DA887E0c18e631e175532C06221761Db30A24", 
       minimumEthBalance: toBn(5, 17),
       periodLength: 60 * 60 * 24 * 2, // 2 days
       percentPerPeriod: toBnPercent(5) // 5%
